@@ -34,7 +34,9 @@ To compile and deploy this program you can use Remix IDE at https://remix.ethere
 
 The file can be save at .sol and should be first compiled by using Solidity Compiler. To complile in Solidity Compiler you navigate to the vertical bar on left and clikc on Solidity compiler below the search button. Here you click "Compile Wbit.sol". The program is now Compiled.
 
-Once compiled you can deploy it by going to Deploy and Run Transactions just below Solidity Compiler. You can deploy by click on gon the deploy button.
+Once compiled you can deploy it by going to Deploy and Run Transactions just below Solidity Compiler. You can deploy by click on the deploy button. Now, the contract is deployed.
+
+The deployed contract and its function can be tested by scrolling down and checking Deployed contracts.
 
 ## Created By
 
