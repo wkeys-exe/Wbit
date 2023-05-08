@@ -3,11 +3,13 @@ This is Solidity token created for project "Create a Token" the token name is se
 ## Description
 For this token we first declare some public variables
 
+```javascript
 string public tokenName = "Wbit";
 string public tokenAbbrv = "WBIT";
 uint public totalSupply = 1;
-
+```
 then we declare a public mapping, this will be used to check the supply of a particular address.
 
+```
 mapping(address => uint) public balances;
-
+```
