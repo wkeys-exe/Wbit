@@ -29,12 +29,12 @@ function burn (address _address, uint _value) public {
    totalSupply -= _value;
    balances[_address] -= _value;  }
    ```
-# Executing Program
+## Executing Program
 To compile and deploy this program you can use Remix IDE at https://remix.ethereum.org/
 The file can be save at .sol and should be first compiled by using Solidity Compiler .
 
 Once deployed the Mint and Burn function can be tested.
 
-# Created By
+## Created By
 
 Aditya Padwal - Discord - adityx.a #3994
