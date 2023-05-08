@@ -1,6 +1,6 @@
-## Wbit Token
+# Wbit Token
 This is Solidity token created for project "Create a Token" the token name is set as Wbit.
-# Description
+## Description
 For this token we first declare some public variables
 
 string public tokenName = "Wbit";
