@@ -20,7 +20,7 @@ contract Wbit {
     // public variables here
 string public tokenName = "Wbit";
 string public tokenAbbrv = "WBIT";
-uint public totalSupply = 1000;
+uint public totalSupply = 1;
 
     // mapping variable here
 mapping(address => uint) public balances;
