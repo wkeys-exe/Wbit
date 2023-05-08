@@ -13,7 +13,7 @@ then we declare a public mapping, this will be used to check the supply of a par
 ```
 mapping(address => uint) public balances;
 ```
-then we add the important functions which would allow us to change the supply of out tokens either by mint or burn
+then we add the important functions which would allow us to change the supply of out tokens either by mint or burn.
 
 Mint function
 ```
@@ -30,10 +30,11 @@ function burn (address _address, uint _value) public {
    balances[_address] -= _value;  }
    ```
 ## Executing Program
-To compile and deploy this program you can use Remix IDE at https://remix.ethereum.org/
-The file can be save at .sol and should be first compiled by using Solidity Compiler .
+To compile and deploy this program you can use Remix IDE at https://remix.ethereum.org/ .
 
-Once deployed the Mint and Burn function can be tested.
+The file can be save at .sol and should be first compiled by using Solidity Compiler. To complile in Solidity Compiler you navigate to the vertical bar on left and clikc on Solidity compiler below the search button. Here you click "Compile Wbit.sol". The program is now Compiled.
+
+Once compiled you can deploy it by going to Deploy and Run Transactions just below Solidity Compiler. You can deploy by click on gon the deploy button.
 
 ## Created By
 
