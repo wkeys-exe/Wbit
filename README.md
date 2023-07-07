@@ -10,20 +10,20 @@ uint public totalSupply = 1;
 ```
 then we declare a public mapping, this will be used to check the supply of a particular address.
 
-```
+```javascript
 mapping(address => uint) public balances;
 ```
 then we add the important functions which would allow us to change the supply of out tokens either by mint or burn.
 
 Mint function
-```
+```javascript
 function mint (address _address, uint _value) public {
    totalSupply += _value;
    balances[_address] += _value;
    
    ```
 Burn function
-```
+```javascript
 function burn (address _address, uint _value) public {
    if (balances[_address] >= _value) {
    totalSupply -= _value;
